@@ -42,6 +42,7 @@ cd Document_Analysis # Navigate into your project directory
 2. Create a Virtual Environment
 It's highly recommended to use a virtual environment to manage project dependencies.
 
+```bash
 python -m venv venv
 # On Windows:
 .\venv\Scripts\activate
