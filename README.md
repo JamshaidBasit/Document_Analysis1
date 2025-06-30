@@ -39,7 +39,10 @@ First, clone this repository to your local machine:
 git clone [https://github.com/JamshaidBasit/Document_Analysis1.git](https://github.com/JamshaidBasit/Document_Analysis1.git)
 cd Document_Analysis # Navigate into your project directory
 
+```
+
 ### 2. Create a Virtual Environment
+
 It's highly recommended to use a virtual environment to manage project dependencies.
 
 ```bash
@@ -48,3 +51,5 @@ python -m venv venv
 .\venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
+
+```
