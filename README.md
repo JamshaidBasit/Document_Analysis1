@@ -91,3 +91,7 @@ Ensure you have a MongoDB instance running, ideally locally on `mongodb://localh
 * **Install MongoDB Compass (GUI):** [MongoDB Compass](https://www.mongodb.com/products/compass) (Optional, but highly recommended for viewing your databases).
 
 The system will automatically create the necessary databases and collections (`reviews_db`, `knowledge_base_db`, `pdf_data_db`, `analysis_results_db`) when you run the scripts.
+
+### 6. Prepare PDF Data
+
+Place the PDF file you want to analyze (e.g., `The Lost War.pdf`) in the same root directory as your Python scripts. You can change the `PDF_FILE` variable in `MongoDatabase_for_pdf.py` if your file has a different name or path.
