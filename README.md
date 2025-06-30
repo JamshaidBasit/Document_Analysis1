@@ -26,21 +26,6 @@ Leveraging advanced Large Language Models (LLMs), LangChain, LangGraph, and a ro
 
 ---
 
-## 🛠️ Technologies Used
-
-* **Python:** Core programming language.
-* **LangChain:** Framework for developing LLM-powered applications.
-* **LangGraph:** For building stateful, multi-actor applications with LLMs (agent orchestration).
-* **MongoDB:** NoSQL database for storing application data (PDF chunks, agent configs, knowledge base, results).
-* **ChromaDB:** Vector database for semantic search and knowledge retrieval.
-* **Hugging Face Transformers:** For the zero-shot text classification pipeline.
-* **FastEmbed:** Lightweight library for generating embeddings.
-* **PyMongo:** Python driver for MongoDB.
-* **python-dotenv:** For managing environment variables.
-* **pdfplumber:** For extracting text from PDF files.
-* **Groq API:** For high-performance LLM inference.
-
----
 
 ## 📋 Setup Instructions
 
