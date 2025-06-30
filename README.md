@@ -106,3 +106,28 @@ You'll need to populate the MongoDB collections with initial data for agents, kn
     python MongoDatabase_for_pdf.py
     ```
     This script reads your specified PDF, chunks it, and stores it in the `pdf_data_db`.
+
+## 🏃 Running the System
+
+After setting up all the prerequisites and populating the databases, you can run the main workflow:
+
+```bash
+python mains1.py
+
+```
+
+The system will:
+
+Clear previous analysis results.
+
+Load agents from MongoDB.
+
+Process PDF chunks.
+
+Classify text chunks.
+
+Route chunks through relevant review agents based on classification and agent criteria.
+
+Generate a final report for each chunk, including problematic text, observations, recommendations, confidence, retries, and human review necessity.
+
+Save all results to MongoDB.
