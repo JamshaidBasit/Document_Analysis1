@@ -101,12 +101,23 @@ To set up your initial review agents (like `NationalSecurityReview`, `Institutio
 python Agent_dB_Mongo.py
 ```
 
-### 6. Prepare PDF Data
+### 7. Build Knowledge Base (Initial Setup)
+
+**Build Knowledge Base (Initial Setup):**
+To populate your knowledge base with official narratives and contextual information, use the `KB_Database_Mongo.py` script. This script facilitates inserting data into the `knowledge_base_db`.
+
+```bash
+python KB_Database_Mongo.py
+
+```
+ This script use `Knowledge_Base_New` folder so keep this folder in same path of script.
+
+### 8. Prepare PDF Data
 
 Place the PDF file you want to analyze (e.g., `The Lost War.pdf`) in the same root directory as your Python scripts. You can change the `PDF_FILE` variable in `MongoDatabase_for_pdf.py` if your file has a different name or path.
 
 
-### 7. Populate Databases (Initial Run)
+### 9. Populate Databases (Initial Run)
 
 You'll need to populate the MongoDB collections with initial data for agents, knowledge base, and PDF chunks.
 
