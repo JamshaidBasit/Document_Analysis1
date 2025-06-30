@@ -117,17 +117,10 @@ python mains1.py
 ```
 
 The system will:
-
-Clear previous analysis results.
-
-Load agents from MongoDB.
-
-Process PDF chunks.
-
-Classify text chunks.
-
-Route chunks through relevant review agents based on classification and agent criteria.
-
-Generate a final report for each chunk, including problematic text, observations, recommendations, confidence, retries, and human review necessity.
-
-Save all results to MongoDB.
+* Clear previous analysis results.
+* Load agents from MongoDB.
+* Process PDF chunks.
+* Classify text chunks.
+* Route chunks through relevant review agents based on classification and agent criteria.
+* Generate a final report for each chunk, including problematic text, observations, recommendations, confidence, retries, and human review necessity.
+* Save all results to MongoDB.
