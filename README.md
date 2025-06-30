@@ -28,7 +28,7 @@ First, clone this repository to your local machine:
 
 ```bash
 git clone [https://github.com/JamshaidBasit/Document_Analysis1.git](https://github.com/JamshaidBasit/Document_Analysis1.git)
-cd Document_Analysis # Navigate into your project directory
+cd Document_Analysis1 # Navigate into your project directory
 
 ```
 
