@@ -95,3 +95,14 @@ The system will automatically create the necessary databases and collections (`r
 ### 6. Prepare PDF Data
 
 Place the PDF file you want to analyze (e.g., `The Lost War.pdf`) in the same root directory as your Python scripts. You can change the `PDF_FILE` variable in `MongoDatabase_for_pdf.py` if your file has a different name or path.
+
+
+### 7. Populate Databases (Initial Run)
+
+You'll need to populate the MongoDB collections with initial data for agents, knowledge base, and PDF chunks.
+
+* **Process PDF into MongoDB:**
+    ```bash
+    python MongoDatabase_for_pdf.py
+    ```
+    This script reads your specified PDF, chunks it, and stores it in the `pdf_data_db`.
