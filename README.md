@@ -83,3 +83,11 @@ llm_groq=llama3-8b-8192
 eval_llm1=meta-llama/llama-4-scout-17b-16e-instruct
 
 ```
+
+### 5. MongoDB Setup
+
+Ensure you have a MongoDB instance running, ideally locally on `mongodb://localhost:27017/`.
+* **Download MongoDB:** [MongoDB Community Server](https://www.mongodb.com/try/download/community)
+* **Install MongoDB Compass (GUI):** [MongoDB Compass](https://www.mongodb.com/products/compass) (Optional, but highly recommended for viewing your databases).
+
+The system will automatically create the necessary databases and collections (`reviews_db`, `knowledge_base_db`, `pdf_data_db`, `analysis_results_db`) when you run the scripts.
