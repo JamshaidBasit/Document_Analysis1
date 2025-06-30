@@ -60,3 +60,35 @@ Install all required Python packages using the requirements.txt file:
 pip install -r requirements.txt
 
 ```
+
+### 4. Environment Variables (.env file)
+Create a file named .env in the root directory of your project (the same directory as mains1.py, config.py, etc.). This file will store your sensitive API keys and database configurations.
+
+```bash
+# --- Agent MongoDB Configuration ---
+MONGO_URI=mongodb://localhost:27017/
+MONGO_DB_Agent=reviews_db
+MONGO_COLLECTION_Agent=agent_configs
+
+# --- KB MongoDB Configuration ---
+MONGO_DB_KB=knowledge_base_db
+MONGO_COLLECTION_KB=kb_data
+
+# --- PDF Based MongoDB Configuration ---
+MONGO_DB_PDF=pdf_data_db
+MONGO_COLLECTION_PDF=pdf_chunks
+
+# --- MongoDB Configuration for Final Results ---
+RESULTS_DB_NAME1=analysis_results_db
+RESULTS_COLLECTION_NAM1=review_outcomes
+
+# --- API Keys ---
+GROQ_API_KEY1=your_groq_api_key_here # <<< IMPORTANT: Replace with your actual Groq API Key!
+
+
+# --- Models ---
+embeddings_model=BAAI/bge-large-en-v1.5
+llm_groq=llama3-8b-8192
+eval_llm1=meta-llama/llama-4-scout-17b-16e-instruct
+
+```
