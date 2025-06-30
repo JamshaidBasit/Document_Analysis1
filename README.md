@@ -36,5 +36,5 @@ Follow these steps to get your project up and running locally.
 First, clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/JamshaidBasit/Document_Analysis.git](https://github.com/JamshaidBasit/Document_Analysis.git)
+git clone [https://github.com/JamshaidBasit/Document_Analysis1.git](https://github.com/JamshaidBasit/Document_Analysis1.git)
 cd Document_Analysis # Navigate into your project directory
