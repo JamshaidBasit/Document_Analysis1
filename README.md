@@ -101,7 +101,7 @@ Add Review Agents (Initial Setup):**
     You can also use `mongodb_new_agent.py` to add individual agents with custom criteria and guidelines, or modify it to add more agents programmatically.
     ```bash
     python mongodb_new_agent.py
-    
+    ```
 ### 6. Prepare PDF Data
 
 Place the PDF file you want to analyze (e.g., `The Lost War.pdf`) in the same root directory as your Python scripts. You can change the `PDF_FILE` variable in `MongoDatabase_for_pdf.py` if your file has a different name or path.
