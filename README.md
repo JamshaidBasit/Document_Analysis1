@@ -14,15 +14,6 @@ This project provides an **AI-powered system designed to review content, particu
 
 Leveraging advanced Large Language Models (LLMs), LangChain, LangGraph, and a robust MongoDB/ChromaDB backend, this system automates the preliminary review process, highlighting potentially problematic content for further human examination.
 
-### ✨ Key Features:
-
-* **Dynamic Agent-Based Review:** Customizable review agents (e.g., historical accuracy, cultural sensitivity) loaded dynamically from MongoDB.
-* **LLM-Powered Analysis:** Utilizes powerful LLMs (Groq, Llama) for in-depth content evaluation.
-* **Vector-Based Knowledge Base:** Integrates a ChromaDB knowledge base to provide contextual information and official narratives to agents.
-* **PDF Processing:** Extracts and chunks text from PDF documents for systematic review.
-* **Zero-Shot Text Classification:** Categorizes text segments (e.g., military events, historical figures) using a transformer-based classifier to route to relevant agents.
-* **Comprehensive Reporting:** Generates detailed reports on identified issues, confidence scores, and recommendations (delete, rephrase, fact-check, human review).
-* **Persistent Data Storage:** Uses MongoDB for storing PDF data, agent configurations, knowledge base information, and final analysis results.
 
 ---
 
