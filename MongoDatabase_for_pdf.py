@@ -21,8 +21,8 @@ def init_mongo_db():
 
 # Configuration
 BOOK_TITLE = "History Book"
-PDF_FILE = 'testing.pdf'
-CHUNK_SIZE = 300
+PDF_FILE = 'The Lost War.pdf'
+CHUNK_SIZE = 200
 CHUNK_OVERLAP = 50
 
 # Initialize LangChain text splitter

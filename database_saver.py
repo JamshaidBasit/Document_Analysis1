@@ -1,10 +1,13 @@
 import pymongo
 from typing import Dict
 from config import MONGO_URI
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # --- MongoDB Configuration for Final Results ---
-RESULTS_DB_NAME = "analysis_results_db"
-RESULTS_COLLECTION_NAME = "review_outcomes"
+RESULTS_DB_NAME = os.getenv("RESULTS_DB_NAME1")
+RESULTS_COLLECTION_NAME = os.getenv("RESULTS_COLLECTION_NAM1")
 
 def clear_results_collection():
     """
